@@ -16,8 +16,8 @@ $dog=urlencode($time."  晴  ".$doggg);
 for($i=0;$i<=50;$i++){
 $uid=$arr[$i]["mid"];
 if(!in_array($uid,$ar)){
-gettcurl("https://fastmessage.cn/bili/send.php?uid=$uid&con=$dog");
-gettcurl("https://fastmessage.cn/bili/send.php?uid=$uid&con=您的日记已发送，请查收（IOS用户请使用网页端查收）");
+gettcurl("https://你的域名/send.php?uid=$uid&con=$dog");
+gettcurl("https://你的域名/send.php?uid=$uid&con=您的日记已发送，请查收（IOS用户请使用网页端查收）");
 fwrite($xie,",".$uid);
 }
 }

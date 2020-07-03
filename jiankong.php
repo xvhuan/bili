@@ -5,7 +5,7 @@ $a=1;
 $b=1;
 while($a=$b){
 $b=file_get_contents("jiance.txt");
-postcurl("https://fastmessage.cn/bili/dan.php");
+postcurl("https://你的域名/dan.php");
 sleep(10);
 }
 

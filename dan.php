@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('PRC');
-$sendurl="https://api.bilibili.com/x/v2/dm/search?oid=199356056&type=1&keyword=&order=ctime&sort=desc&pn=1&ps=50";
+$sendurl="https://api.bilibili.com/x/v2/dm/search?oid=你视频的oid&type=1&keyword=&order=ctime&sort=desc&pn=1&ps=50";
 $dan=postcurl($sendurl);
 $json=json_decode($dan,true);
 $arr=$json["data"]["result"];

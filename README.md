@@ -3,3 +3,5 @@
 B站：illusory_虚幻
 
 介绍视频：
+
+获取视频oid：https://member.bilibili.com/x/web/archive/parts?aid=此处填写视频av号
